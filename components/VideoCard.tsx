@@ -105,12 +105,12 @@ const VideoCard: NextPage<IProps> = ({ post }) => {
           )}
         </div>
       </div>
-      <div className="flex gap-2 mb-2">
+      <div className="flex flex-col gap-2 mb-2">
         <span className="font-medium text-sm text-gray-500">
           {post.caption}
         </span>
         <span className="font-medium text-sm text-gray-500">
-          {post.likes.length} likes
+          {post.likes.length ? `${post.likes.length} likes` : 'no likes yet'}
         </span>
       </div>
     </div>
