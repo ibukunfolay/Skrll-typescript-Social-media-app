@@ -1,7 +1,7 @@
 import type { AppProps } from 'next/app';
 import { useEffect, useState } from 'react';
-import Sidebar from '../components/Sidebar';
 import Navbar from '../components/Navbar';
+import Sidebar from '../components/Sidebar';
 import { GoogleOAuthProvider } from '@react-oauth/google';
 import '../styles/globals.css';
 
