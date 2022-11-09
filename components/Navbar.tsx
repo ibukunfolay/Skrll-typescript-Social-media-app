@@ -15,7 +15,7 @@ import { createOrGetUser } from '../utils';
 
 const Navbar = () => {
   const router = useRouter();
-  const { userProfile, addUser, removeUser } = useAuthStore();
+  const { userProfile, addUser, removeUser }: any = useAuthStore();
   const [searchValue, setSearchValue] = useState('');
 
   const handleSearch = (e: { preventDefault: () => void }) => {
