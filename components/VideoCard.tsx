@@ -105,7 +105,7 @@ const VideoCard: NextPage<IProps> = ({ post }) => {
           )}
         </div>
       </div>
-      <div className="flex gap-2">
+      <div className="flex gap-2 mb-2">
         <span className="font-medium text-sm text-gray-500">
           {post.caption}
         </span>
