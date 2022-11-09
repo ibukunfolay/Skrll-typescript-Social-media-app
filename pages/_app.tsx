@@ -1,9 +1,9 @@
-import '../styles/globals.css';
 import type { AppProps } from 'next/app';
 import { useEffect, useState } from 'react';
 import Sidebar from '../components/Sidebar';
 import Navbar from '../components/Navbar';
 import { GoogleOAuthProvider } from '@react-oauth/google';
+import '../styles/globals.css';
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
   const [isSSR, setIsSSR] = useState(true);
